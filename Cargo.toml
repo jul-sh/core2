@@ -12,7 +12,7 @@ categories = ["no-std"]
 memchr = { version = "2", default-features = false }
 
 [features]
-default = ["std"]
+default = ["alloc"]
 std = ["alloc"]
 alloc = []
 nightly = []
